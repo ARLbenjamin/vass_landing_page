@@ -1,14 +1,5 @@
-/* eslint-disable max-classes-per-file */
-/* eslint-disable react/no-multi-comp */
-
 import React, { useRef }  from 'react';
 import {
-  Button,
-  Container,
-  Divider,
-  Grid,
-  Header,
-  Image,
   Icon,
   Segment,
 } from 'semantic-ui-react';
