@@ -2,7 +2,6 @@ import React from "react";
 import {
     Segment,
     Grid,
-    Sticky
   } from 'semantic-ui-react';
 
 import "./secondSection.scss";
@@ -35,7 +34,7 @@ export default function SecondSection() {
                                                 mobile={7}
                                                 style={{height: '70vh', overflow: 'hidden'}}>
                                             <img
-                                                src="https://pixabay.com/get/gc5ef0491b70f9f41d0042d299bda2cd95a77672b7e2bc42e09f8ef4ff69ab1451bbbd4c61626541ef81b4129d5851f95_640.jpg"
+                                                src="https://i.imgur.com/JLqSjkJ.jpg"
                                                 className="image"
                                               />
                                             <Grid.Column 
@@ -64,7 +63,7 @@ export default function SecondSection() {
                                                 style={{height: '70vh', overflow: 'hidden'}}
                                                 >
                                             <img
-                                                src="https://pixabay.com/get/g4fd5ce9e8ec0efb3191c7fd99ee6833a4b2483f0bde163621ed763678f70ac8c38f5895abfbb4c5abe2183047f00b1d0_640.jpg"
+                                                src="https://i.imgur.com/fxPc27C.jpg"
                                                 className="image"
                                               />
                                             <Grid.Column 
@@ -91,7 +90,7 @@ export default function SecondSection() {
                                                 mobile={7}
                                                 style={{height: '70vh', overflow: 'hidden'}}>
                                             <img
-                                                src="https://pixabay.com/get/ge74eb2299f0040108e7a0fa1a4da137adc02a6c6709e8d5c7434ecc3f5833f82cc2f14b3fb1616da14d772f283e63714_640.jpg"
+                                                src="https://i.imgur.com/652M0ej.jpg"
                                                 className="image"
                                               />
                                             <Grid.Column 
