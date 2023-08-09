@@ -48,8 +48,9 @@ export default function ContactForm() {
                         name="name"
                         value={formik.values.name}
                         onChange={formik.handleChange}
-                        error={formik.errors.name}
+                        error={formik.errors.name && true}
                     />
+                    <span style={{marginBottom: '6rem', display:'flex', color:'red'}}>{formik.errors.name}</span>
 
                     <Form.Input
                         className='contact_form_input_element'
@@ -59,8 +60,10 @@ export default function ContactForm() {
                         name="email"
                         value={formik.values.email}
                         onChange={formik.handleChange}
-                        error={formik.errors.email}
+                        error={formik.errors.email && true}
                     />
+                     <span style={{marginBottom: '6rem', display:'flex', color:'red'}}>{formik.errors.email}</span>
+
                      <Form.Input
                         inverted
                         className='contact_form_input_element'
@@ -70,8 +73,10 @@ export default function ContactForm() {
                         name="company"
                         value={formik.values.company}
                         onChange={formik.handleChange}
-                        error={formik.errors.company}
+                        error={formik.errors.company && true}
                     />
+                    <span style={{marginBottom: '6rem', display:'flex', color:'red'}}>{formik.errors.company}</span>
+
                     <Form.Input
                         inverted
                         className='contact_form_input_element'
@@ -82,6 +87,7 @@ export default function ContactForm() {
                         value={formik.values.country}
                         onChange={formik.handleChange}
                     />
+                    <span style={{display:'flex', color:'red'}}>{formik.handleChange}</span>
                 </Grid.Column>
                 <Grid.Column largeScreen={1} computer={1} tablet={16}>
 
@@ -95,8 +101,10 @@ export default function ContactForm() {
                         name="phoneNumber"
                         value={formik.values.phoneNumber}
                         onChange={formik.handleChange}
-                        error={formik.errors.phoneNumber}
+                        error={formik.errors.phoneNumber && true}
                     />
+                    <span style={{marginBottom: '6rem', display:'flex', color:'red'}}>{formik.errors.phoneNumber}</span>
+
                     <Form.Field
                         className='contact_form_text_area_element'
                         control={TextArea}
@@ -104,8 +112,9 @@ export default function ContactForm() {
                         name='opinion'
                         value={formik.values.opinion}
                         onChange={formik.handleChange}
-                        error={formik.errors.opinion}
+                        error={formik.errors.opinion && true}
                     />
+                    <span style={{display:'flex', color:'red'}}>{formik.errors.opinion}</span>
                     <div className='container_btn_submit'>
                         <Button type="submit" className="btn_submit">
                             Enviar
@@ -116,4 +125,5 @@ export default function ContactForm() {
         </Form>
     );  
 }   
+    
     
