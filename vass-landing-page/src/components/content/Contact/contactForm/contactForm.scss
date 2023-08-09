@@ -2,9 +2,11 @@
 .contact_form {
     height: 70vh;
     .contact_form_input_element {
-        margin-bottom: 5rem !important;
-        padding-bottom: .8rem !important;
+        
+        padding-bottom: .2rem !important;
+        margin-bottom: .2rem !important;
         font-size: 1.5rem;
+        border-bottom: 1px solid white;
         
         input{
             color: white !important;
