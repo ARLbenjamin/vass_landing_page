@@ -1,0 +1,49 @@
+.second_section_container{
+
+    width: 100%;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    height: 100vh;
+
+    .background_world{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25vw;
+    }
+
+    .scroll_invisible_container {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+
+        .scrollable_content {
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+            &::-webkit-scrollbar {
+            display: none;
+            }
+            .inner_content {
+                width: 100%;
+                height: 200vh;
+
+                .image{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: fill;
+                }
+              }
+        }
+    }
+}
