@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 export const FirstSectionHook = () => {
 
     const [currentOption, setCurrentOption] = useState(null)
-    const [backgroundOptionRendering, setBackgroundOptionRendering] = useState('https://vod-progressive.akamaized.net/exp=1691449607~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F3178%2F14%2F365891144%2F1509405203.mp4~hmac=6f34409e26d11eb109d855d537374529da3990768e3f24dd2553226ec3f57eda/vimeo-prod-skyfire-std-us/01/3178/14/365891144/1509405203.mp4?filename=file.mp4')
+    const [backgroundOptionRendering, setBackgroundOptionRendering] = useState('https://vod-progressive.akamaized.net/exp=1691555706~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F3178%2F14%2F365891117%2F1509404902.mp4~hmac=36da6ceb84732862c1bd2bd2f84b54055183cd62232ff673be2831ba5fac42bd/vimeo-prod-skyfire-std-us/01/3178/14/365891117/1509404902.mp4?filename=file.mp4')
 
     const [renderKey, setRenderKey] = useState('default')
 
@@ -18,22 +18,22 @@ export const FirstSectionHook = () => {
 
                 case 'brand':
 
-                    setBackgroundOptionRendering('https://vod-progressive.akamaized.net/exp=1691452653~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F1179%2F16%2F405897623%2F1738366734.mp4~hmac=af1fcc2bcc37d74084c9e3eb94b0f32c99da4bacafe545988e4bd038b7fb1002/vimeo-prod-skyfire-std-us/01/1179/16/405897623/1738366734.mp4?filename=file.mp4')
+                    setBackgroundOptionRendering('https://vod-progressive.akamaized.net/exp=1691555866~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F1179%2F16%2F405897623%2F1738366727.mp4~hmac=70e4a8b093df43a8a9aab5b38d89df11d7da95733b4196118278317b1f43c4fe/vimeo-prod-skyfire-std-us/01/1179/16/405897623/1738366727.mp4?filename=file.mp4')
 
                     break;
 
                 case 'product':
-                    setBackgroundOptionRendering('https://vod-progressive.akamaized.net/exp=1691452533~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F3195%2F19%2F490977482%2F2205528819.mp4~hmac=a5808853987feaffb0a9204ff060617e85c090b7bc076f17a1c40ba6fb0f0e9c/vimeo-prod-skyfire-std-us/01/3195/19/490977482/2205528819.mp4?filename=file.mp4')
+                    setBackgroundOptionRendering('https://vod-progressive.akamaized.net/exp=1691555828~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F3195%2F19%2F490977482%2F2205528811.mp4~hmac=c8ff728ab01732c9a71ecedbba30ba75b2f6dd2f2810ae3578656d361b404575/vimeo-prod-skyfire-std-us/01/3195/19/490977482/2205528811.mp4?filename=file.mp4')
 
                     break;
 
                 case 'motion':
-                    setBackgroundOptionRendering('https://vod-progressive.akamaized.net/exp=1691452564~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F1757%2F7%2F183786490%2F604916421.mp4~hmac=4644ec59ba0289d0d5e86cffef121527ff072e5327ff8709b2af14b7bff10ed1/vimeo-prod-skyfire-std-us/01/1757/7/183786490/604916421.mp4?filename=file.mp4')
+                    setBackgroundOptionRendering('https://vod-progressive.akamaized.net/exp=1691555847~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F1757%2F7%2F183786490%2F604916426.mp4~hmac=719e91c95c2f193852e21ccbf1a772d5f6c0cbf92cbd1165cbcc34c87206fa92/vimeo-prod-skyfire-std-us/01/1757/7/183786490/604916426.mp4?filename=file.mp4')
 
                     break;
                 default:
 
-                    setBackgroundOptionRendering('https://vod-progressive.akamaized.net/exp=1691449607~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F3178%2F14%2F365891144%2F1509405203.mp4~hmac=6f34409e26d11eb109d855d537374529da3990768e3f24dd2553226ec3f57eda/vimeo-prod-skyfire-std-us/01/3178/14/365891144/1509405203.mp4?filename=file.mp4')
+                    setBackgroundOptionRendering('https://vod-progressive.akamaized.net/exp=1691555706~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F3178%2F14%2F365891117%2F1509404902.mp4~hmac=36da6ceb84732862c1bd2bd2f84b54055183cd62232ff673be2831ba5fac42bd/vimeo-prod-skyfire-std-us/01/3178/14/365891117/1509404902.mp4?filename=file.mp4')
 
                     break;
             }
@@ -73,3 +73,4 @@ export const FirstSectionHook = () => {
         renderKey,
     };
 };
+
